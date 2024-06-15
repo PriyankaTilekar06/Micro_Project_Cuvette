@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    width: 100vw;
+}
+
+.item1{
+    height: 65vh;
+    width: 100vw;
+    background-color:#FFCD9E;
+    padding-left: 9%;
+}
+
+h2{
+    font-size: 36px;
+    color: #282828;
+    padding-top: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+p{
+    padding-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #484848;
+}
+
+h3{
+    padding-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #282828;
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+
+input{
+    border: 4px solid #000000;
+    width: 344px;
+    height: 44px;
+    top: 411px;
+    left: 136px;
+    gap: 0px;
+    border-radius: 8px;
+    border: 4px 0px 0px 0px;
+    background: #FFFFFF;
+}
+
+::placeholder{
+    color: #888888;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 5%;
+}
+
+button{
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #282828;
+    border: none;
+    color: #FFFFFF;
+}
+
+.para{
+    color: #FFFFFF;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 35px;
+    padding-left: 35px;
+}
+
+.item2{
+    height: 65vh;
+    width: 100vw;
+    background-color:#FFCD9E;
+    display: flex;
+    justify-content: end;
+    padding-left: 10%;
+}
+
+.item2 img{
+    height: auto;
+    max-width: 100%;
+}
+
+
+.footer{
+    display: flex;
+    height: 200px;
+    width: 100vw;
+}
+
+.item3{
+    background-color: #282828;
+    height: 35vh;
+    width: 100vw;
+}
+
+li{
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 32px;
+}
+
+ul{
+    padding-top: 5%;
+    padding-left: 30%;
+}
+
+.item4{
+    background-color: #282828;
+    height: 35vh;
+    width: 100vw;
+}
+
+.para1 ,.para2 ,.para3{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.para1{
+    padding-left: 70%;
+}
+
+.para2{
+    padding-left: 57%;
+}
+
+.para3{
+    padding-left: 65%;
+    padding-top: 6%;
+}
+
+.logo2::after {
+    clear: both;
+    display: table;
+}
+
+.logo1{
+    display: inline-block;
+    padding-left: 480px;
+    padding-top: 5px;
+}
+
